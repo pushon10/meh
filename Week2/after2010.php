@@ -8,7 +8,11 @@ if($db->connect_errno){
 
 $sql = "Select * from marvelmovies
         Where yearReleased = '2010'
-        Or yearReleased = '2011'";
+        Or yearReleased = '2011'
+        Or yearReleased = '2012'
+        Or yearReleased = '2013'
+        Or yearReleased = '2014'
+        Or yearReleased = '2015'";
 
 $result = $db -> query($sql);
 
