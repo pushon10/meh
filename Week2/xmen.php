@@ -7,7 +7,7 @@ if($db->connect_errno){
 }
 
 $sql = "Select * from marvelmovies
-        Where title LIKE 'X-Men'";
+        Where title LIKE 'X-Men%'";
 
 $result = $db -> query($sql);
 
