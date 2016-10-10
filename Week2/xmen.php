@@ -7,7 +7,7 @@ if($db->connect_errno){
 }
 
 $sql = "Select * from marvelmovies
-        Where productionStudio = '20th Century Fox'";
+        Where title = 'X-Men'";
 
 $result = $db -> query($sql);
 
