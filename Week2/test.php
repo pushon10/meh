@@ -6,7 +6,8 @@ if($db->connect_errno){
     die('Connectfailed['.$db->connect_error.']');
 }
 
-$sql = "Select * from marvelmovies";
+$sql = "Select * from marvelmovies
+        Where productionStudio = Marvel Studios";
 
 $result = $db -> query($sql);
 
