@@ -11,7 +11,7 @@ $sql = "Select * from marvelmovies";
 $result = $db -> query($sql);
 
 while($row = $result->fetch_array()){
-    echo "<p>{$row[title]}</p>";
+    echo "<p><strong>{$row[title]}</strong>: {$row[yearReleased]}</p>";
 }
 
 $result->close();
