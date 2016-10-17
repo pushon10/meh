@@ -5,8 +5,8 @@
 
 <a href="helloSelector.php?planet=earth">Earth</a>
 
-<a href="helloSelector.php?planet=earth">Mars</a>
+<a href="helloSelector.php?planet=mars">Mars</a>
 
-<a href="helloSelector.php?planet=earth">Uranus</a>
+<a href="helloSelector.php?planet=uranus">Uranus</a>
 
 
