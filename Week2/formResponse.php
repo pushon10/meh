@@ -1,5 +1,7 @@
 <?php
 $forename = $_POST[“forename”];
 $surname = $_POST[“surname”];
-echo $forename . $surname;
+$gender = $_POST[“gender”];
+$power = $_POST[“power”];
+echo $forename . $surname . $gender . $power;
 ?> 
