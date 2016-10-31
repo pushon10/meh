@@ -1,6 +1,6 @@
 <?php
 
-include ("DBCONNECT1.php");
+include("DBCONNECT1.php");
 
 if($db->connect_errno){
     die('Connectfailed['.$db->connect_error.']');
