@@ -2,10 +2,10 @@
 
 // connect to your Azure server and select database (remember you connection details are all on the azure portal
 $db = new mysqli(
-    "hostname",
-    "username",
-    "password",
-    "db_name" );
+    "eu-cdbr-azure-north-e.cloudapp.net",
+    "b39bd113c5cf09",
+    "19484f39",
+    "pb1404886db" );
 
 // test our connection
 if ($db->connect_errno) {
