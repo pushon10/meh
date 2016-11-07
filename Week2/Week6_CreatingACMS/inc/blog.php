@@ -17,14 +17,8 @@ echo
 <ul>
 "
 ;
-$sql
-    =
-    "SELECT
-*
-FROM blogArticles "
-;
-$result
-    =
+$sql = "SELECT*FROM blogArticles ";
+$result =
     $db
         ->
         query
