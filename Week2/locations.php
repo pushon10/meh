@@ -1,3 +1,18 @@
+<?PHP
+
+// connect to your Azure server and select database (remember you connection details are all on the azure portal
+$db = new mysqli(
+    "hostname",
+    "username",
+    "password",
+    "db_name" );
+
+// test our connection
+if ($db->connect_errno) {
+    die ('Connection Failed :'.$db->connect_error );
+}
+
+
 // Start XML file, create parent node
 
 $dom = new DOMDocument("1.0");
